@@ -458,10 +458,25 @@ body {
     width: 100%; */
 	flex-direction: column;
 	background: linear-gradient(180deg, rgba(184,107,119,.8) 50%, rgb(192, 131, 140) 100%);
-	max-width: 1920px;
+	max-width: 856px;
 	margin: 0 auto;
-	position: relative;
+	position: relative;	
+
 }
+
+.bg_img{ 
+  /* content: ""; */
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .5;
+  background: url(../assets/img/3Q1P1722.jpg) no-repeat top center/100% ; 
+  height:100%;
+  width:100%;
+  z-index:-1;
+  }
+
 
 .title {
 	margin-bottom: 40px;
@@ -594,3 +609,7 @@ background: transparent;
 .actions a:last-child .venue {
 background: gray;
 }
+
+
+.map{margin-top: 25px;}
+
