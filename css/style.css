@@ -471,7 +471,7 @@ body {
   top: 0;
   left: 0;
   opacity: .5;
-  background: url(../assets/img/3Q1P1722.jpg) no-repeat top center/100% ; 
+  background: url(../assets/img/3Q1P1722.jpg) no-repeat top center/auto 100%; 
   height:100%;
   width:100%;
   z-index:-1;
@@ -600,15 +600,15 @@ a {
 	letter-spacing: 0pt;
 }
 
-.actions a:last-child {
-background: gray;
-pointer-events: none;
-background: transparent;
-}
+/* .actions a:last-child { */
+/* background: gray; */
+/* pointer-events: none; */
+/* background: transparent; */
+/* } */
 
-.actions a:last-child .venue {
-background: gray;
-}
+/* .actions a:last-child .venue { */
+/* background: gray; */
+/* } */
 
 
 .map{margin-top: 25px;}
