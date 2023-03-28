@@ -396,6 +396,7 @@ img {
 }
 
 .title h1 {
+	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-weight: bold;
 	font-style: normal;
@@ -416,28 +417,6 @@ img {
    color:transparent;
    -webkit-background-clip:text;
 }
-
-/* .title h1{ */
-/*    transform: translate(-50%,-50%); */
-/*    top: 50%; */
-/*    left: 50%; */
-/*    font-family: 'Dancing Script',cursive; */
-/*    letter-spacing: 5px; */
-/*    font-size: 60px; */
-/*    font-weight: bold; */
-/*    background: linear-gradient( */
-/* 	to right, */
-/* 	#462523 0, */
-/*        	#cb9b51 22%,  */
-/* 	#f6e27a 45%, */
-/* 	#f6f2c0 50%, */
-/* 	#f6e27a 55%, */
-/* 	#cb9b51 78%, */
-/* 	#462523 100% */
-/* 	); */
-/*    color:transparent; */
-/*    -webkit-background-clip:text; */
-/* } */
 
 .title h2 {
 	font-family: 'Dancing Script', cursive;
@@ -546,14 +525,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	/* height: 100vh;
-    width: 100%; */
+    	width: 100%; */
 	flex-direction: column;
 	background: linear-gradient(180deg, rgba(184,107,119,.8) 50%, rgb(192, 131, 140) 100%);
 	max-width: 856px;
-  /* max-width: 1920px; */
+  	/* max-width: 1920px; */
 	margin: 0 auto;
 	position: relative;	
-
 }
 
 .bg_img{ 
@@ -563,7 +541,7 @@ body {
   top: 0;
   left: 0;
   opacity: .5;
-  background: url(../assets/img/3Q1P1722.jpg) no-repeat top center/auto 100%; 
+  background: url(../assets/img/3Q1P1799.jpg) no-repeat top center/auto 100%; 
   height:100%;
   width:100%;
   z-index:-1;
@@ -584,7 +562,7 @@ body {
 }
 
 .venue {
-	width: 150px;
+	width: 120px;
 	height: auto;
 	background-color: #674ea7;
 	border-radius: 16px;
@@ -640,22 +618,30 @@ body {
 	background-color: #14568999;
 }
 
+.days,
+.hours,
+.minutes,
+.seconds{
+  /* width:auto; */
+  /* max-width:100%; */
+}
+
 .date {
 	color: #874562;
 	font-weight: 900;
 	color: #a63541;
-  background: linear-gradient(
+  	background: linear-gradient(
 	to right,
 	/* #462523 0, */
-  /* #cb9b51 22%,  */
+	  /* #cb9b51 22%,  */
 	#f6e27a 45%,
 	#f6f2c0 50%,
 	#f6e27a 55%
 	/* #cb9b51 78% */
 	/* #462523 100% */
 	);
-   color:transparent;
-   -webkit-background-clip:text;
+	color:transparent;
+	-webkit-background-clip:text;
 }
  
 .place {
@@ -732,12 +718,12 @@ a {
 
 .actions {
 	display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 15px;
+  	flex-wrap: wrap;
+  	justify-content: space-evenly;
+  	gap: 15px;
 	font-size: 12px;
 	letter-spacing: 0pt;
-  width: 90%;
+  	width: 90%;
 }
 
 /* .actions a:last-child { */
