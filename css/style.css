@@ -404,16 +404,16 @@ img {
 	margin: 32px 0;
 /* 	/* color: #674ea7; */ 
 /* 	color: gold; */
-  background: linear-gradient(
-	to right,
-	var(--goldDarker) 0,
-  var(--goldDark) 22%, 
-	var(--goldNormal) 45%,
-	var(--goldLight) 50%,
-	var(--goldNormal) 55%,
-	var(--goldDark) 78%,
-	var(--goldDarker) 100%
-	);
+  	background: linear-gradient(
+		to right,
+		var(--goldDarker) 0,
+		var(--goldDark) 22%, 
+		var(--goldNormal) 45%,
+		var(--goldLight) 50%,
+		var(--goldNormal) 55%,
+		var(--goldDark) 78%,
+		var(--goldDarker) 100%
+		);
    color:transparent;
    -webkit-background-clip:text;
 }

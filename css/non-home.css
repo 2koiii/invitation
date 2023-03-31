@@ -36,10 +36,12 @@ body {
 	position: relative;	
 }
 
-.container{position: relative; min-height: 100vh;}
+.container{position: relative; width: 100vw; min-height: 100vh; padding: 15px 25px;}
 .container h1{font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; padding: 15px; color: #333; text-align: center; text-transform: capitalize;}
+.container h2{text-align: center;}
+.container p{text-align: center;}
 .container .image-container{display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; padding: 10px;}
-.container .image-container .image{border: 5px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,.1); overflow: hidden; cursor: pointer; width: 100px; aspect-ratio: 1/1; border-radius: 5px;}
+.container .image-container .image{border: 5px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,.1); overflow: hidden; cursor: pointer; width: 171px; aspect-ratio: 1/1; border-radius: 5px;}
 .container .image-container .image img{height: 100%; width: 100%; object-fit: cover; transition: .2s linear;}
 .container .image-container .image:hover img{transform: scale(1.1);}
 .container .popup-image{position: fixed; top: 0; left: 0; background: rgba(0,0,0,.9); height: 100%; width: 100%; z-index: 100; display: none;}
@@ -50,3 +52,10 @@ body {
 .container .popup-image .gallery .thumbnails img{width: 100px; height: 100px; margin: 5px; cursor: pointer; transition: all 0.3s ease; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); position: static; transform: none; object-fit: contain; aspect-ratio: 1/1; flex-shrink: 0; scroll-snap-align: center;}
 
 @media (max-width: 768px){.container .popup-image img{width: 95%;}}
+
+.entourage_container h2{text-align: center;}
+.entourage_container h3{text-align: center;}
+.entourage_container p{text-align: center;}
+.align_middle{display: flex; column-gap: 20px;}
+.right_align p, .right_align h3{text-align: right;}
+.left_align p, .left_align h3{text-align: left;}
