@@ -37,7 +37,7 @@ body {
 }
 
 .container{position: relative; width: 100vw; min-height: 100vh; padding: 15px 25px;}
-.container h1{font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal; padding: 15px; color: #333; text-align: center; text-transform: capitalize;}
+.container h1{font-size: 60px; font-family: 'Dancing Script', cursive; font-weight: bold; font-style: normal; padding: 15px; color: #333; text-align: center; text-transform: capitalize;}
 .container h2{text-align: center;}
 .container p{text-align: center;}
 .container .image-container{display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; padding: 10px;}
