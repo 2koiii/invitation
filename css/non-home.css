@@ -37,9 +37,21 @@ body {
 }
 
 .container{position: relative; width: 100vw; min-height: 100vh; padding: 15px 25px;}
-.container h1{font-size: 60px; font-family: 'Dancing Script', cursive; font-weight: bold; font-style: normal; padding: 15px; color: #333; text-align: center; text-transform: capitalize;}
+.container h1{font-size: 60px; font-family: 'Dancing Script', cursive; font-weight: bold; font-style: normal; padding: 15px; color: #333; text-align: center; text-transform: capitalize;background: linear-gradient(
+	to right,
+	/* #462523 0, */
+  /* #cb9b51 22%,  */
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%
+	/* #cb9b51 78% */
+	/* #462523 100% */
+	);
+   color:transparent;
+   -webkit-background-clip:text;}
 .container h2{text-align: center;}
 .container p{text-align: center;}
+.container > a{text-transform: uppercase; color: var(--white); text-decoration: none; border: 1px solid black; padding: 5px;}
 .container .image-container{display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; padding: 10px;}
 .container .image-container .image{border: 5px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,.1); overflow: hidden; cursor: pointer; width: 171px; aspect-ratio: 1/1; border-radius: 5px;}
 .container .image-container .image img{height: 100%; width: 100%; object-fit: cover; transition: .2s linear;}
@@ -53,6 +65,19 @@ body {
 
 @media (max-width: 768px){.container .popup-image img{width: 95%;}}
 
+.photos_page p{font-weight: bold; color: var(--white); text-transform: uppercase;}
+.photos_page a{text-transform: none; color: black; text-decoration: underline;font-weight: normal; font-size: 13px; background: linear-gradient(
+	to right,
+	/* #462523 0, */
+  /* #cb9b51 22%,  */
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%
+	/* #cb9b51 78% */
+	/* #462523 100% */
+	);
+   color:transparent;
+   -webkit-background-clip:text;}
 .entourage_container h2{text-align: center;}
 .entourage_container h3{text-align: center;}
 .entourage_container p{text-align: center;}
