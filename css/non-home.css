@@ -69,18 +69,30 @@ body {
 .photos_page a{text-transform: none; color: black; text-decoration: underline;font-weight: normal; font-size: 13px; background: linear-gradient(
 	to right,
 	/* #462523 0, */
-  /* #cb9b51 22%,  */
+  	/* #cb9b51 22%,  */
 	#f6e27a 45%,
 	#f6f2c0 50%,
 	#f6e27a 55%
 	/* #cb9b51 78% */
 	/* #462523 100% */
 	);
-   color:transparent;
-   -webkit-background-clip:text;}
-.entourage_container h2{text-align: center;}
-.entourage_container h3{text-align: center;}
-.entourage_container p{text-align: center;}
+  	color:transparent;
+   	-webkit-background-clip:text;}
+.entourage_container h2{text-align: center; color: var(--white);}
+.entourage_container h3{text-align: center; color: var(--white);}
+.entourage_container p{font-size: 13px;text-align: center; background: linear-gradient(
+	to right,
+	/* #462523 0, */
+  	/* #cb9b51 22%,  */
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%
+	/* #cb9b51 78% */
+	/* #462523 100% */
+	);
+	color:transparent;
+	-webkit-background-clip:text;
+}
 .align_middle{display: flex; column-gap: 20px;}
 .right_align p, .right_align h3{text-align: right;}
 .left_align p, .left_align h3{text-align: left;}
