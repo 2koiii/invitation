@@ -51,7 +51,7 @@ body {
    -webkit-background-clip:text;}
 .container h2{text-align: center;}
 .container p{text-align: center;}
-.container > a{text-transform: uppercase; color: var(--white); text-decoration: none; border: 1px solid black; padding: 5px;}
+.container > a{text-transform: uppercase; color: var(--white); text-decoration: none; border: 1px solid black; padding: 5px; border-radius: 10px 0 0 10px;}
 .container .image-container{display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; padding: 10px;}
 .container .image-container .image{border: 5px solid #fff; box-shadow: 0 5px 15px rgba(0,0,0,.1); overflow: hidden; cursor: pointer; width: 171px; aspect-ratio: 1/1; border-radius: 5px;}
 .container .image-container .image img{height: 100%; width: 100%; object-fit: cover; transition: .2s linear;}
@@ -65,7 +65,7 @@ body {
 
 @media (max-width: 768px){.container .popup-image img{width: 95%;}}
 
-.photos_page p{font-weight: bold; color: var(--white); text-transform: uppercase;}
+.photos_page p{font-weight: bold; color: var(--white); }
 .photos_page a{text-transform: none; color: black; text-decoration: underline;font-weight: normal; font-size: 13px; background: linear-gradient(
 	to right,
 	/* #462523 0, */
@@ -98,3 +98,24 @@ body {
 .left_align p, .left_align h3{text-align: left;}
 
 .bearers{display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+
+.details_page h2{color: var(--white); font-family: 'Dancing Script', cursive;}
+.details_page em{font-family: 'Dancing Script', cursive;}
+
+.for_sponsors_color_pallete{display: flex; gap: 10px; justify-content: center; padding: 15px 0; position: relative; min-height: 100px;}
+.for_sponsors_color_pallete div{min-height: 50px;border-radius: 50%; aspect-ratio: 1/1;}
+.for_sponsors_color_pallete div:first-child{background: #eee3cf; position: absolute; z-index: 1; left: 170px;}
+.for_sponsors_color_pallete div:nth-child(2){background: #f5f1e6; position: absolute; z-index: 2; left: 50%; transform: translateX(-50%);}
+.for_sponsors_color_pallete div:last-child{background: #fcf9f2; position: absolute; z-index: 3; right: 170px;}
+
+.for_guest_color_pallete{display: flex; gap: 10px; justify-content: center; padding: 15px 0; position: relative; min-height: 100px;}
+.for_guest_color_pallete div{min-height: 50px;border-radius: 50%; aspect-ratio: 1/1;}
+.for_guest_color_pallete div:first-child{position: absolute; left: 0; background: var(--roseGold);}
+.for_guest_color_pallete div:nth-child(2){position: absolute; left: 50px; background: pink;}
+.for_guest_color_pallete div:nth-child(3){position: absolute; left: 50%; transform: translateX(-50%); background: var(--blushPink);}
+.for_guest_color_pallete div:nth-child(4){position: absolute;right: 50px; background: var(--pink1);}
+.for_guest_color_pallete div:last-child{position: absolute; right: 0; background: gold}
+
+.wishing_well{padding: 30px 0 0 0;}
+.wishing_well h2{font-family: 'Dancing Script', cursive; color: var(--white);}
+.wishing_well p{font-family: 'Dancing Script', cursive; color: var(--white);}
