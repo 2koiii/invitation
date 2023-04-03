@@ -338,11 +338,9 @@
 html, body{overflow-x: hidden;}
 
 .sakura {
-	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
 	pointer-events: none;
 	position: absolute;
-	background: #674ea7;
+	background: deeppink;
 }
 
 /*******************************/
@@ -377,7 +375,7 @@ img {
 
 @media (max-width:900px) {
 	img {
-		max-width: 30%;
+		max-width: 100%;
 	}
 }
 
@@ -394,6 +392,8 @@ img {
 	left: 0;
 	display: block;
 }
+
+.sakura-branch{min-height: 10px;}
 
 .title h1 {
 	text-align: center;
@@ -509,6 +509,7 @@ img {
 	/* padding: 20px; */
 	text-align: center;
 	/* min-height:100%; */
+	margin-top: -210px;
 }
 
 
@@ -564,7 +565,7 @@ body {
 .venue {
 	width: 120px;
 	height: auto;
-	background-color: #674ea7;
+	background-color: var(--roseGold);
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
