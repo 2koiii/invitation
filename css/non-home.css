@@ -104,18 +104,18 @@ body {
 
 .for_sponsors_color_pallete{display: flex; gap: 10px; justify-content: center; padding: 15px 0; position: relative; min-height: 100px;}
 .for_sponsors_color_pallete div{min-height: 50px;border-radius: 50%; aspect-ratio: 1/1;}
-.for_sponsors_color_pallete div:first-child{background: #eee3cf; position: absolute; z-index: 1; left: 120px;}
+.for_sponsors_color_pallete div:first-child{background: #eee3cf; position: absolute; z-index: 1; left: 40%; transform: translateX(-50%);}
 .for_sponsors_color_pallete div:nth-child(2){background: #f5f1e6; position: absolute; z-index: 2; left: 50%; transform: translateX(-50%);}
-.for_sponsors_color_pallete div:last-child{background: #fcf9f2; position: absolute; z-index: 3; right: 120px;}
+.for_sponsors_color_pallete div:last-child{background: #fcf9f2; position: absolute; z-index: 3; left: 60%; transform: translateX(-50%);}
 
 .for_guest_color_pallete{display: flex; gap: 10px; justify-content: center; padding: 15px 0; position: relative; min-height: 100px;}
 .for_guest_color_pallete div{min-height: 50px;border-radius: 50%; aspect-ratio: 1/1; overflow: hidden;}
 .for_guest_color_pallete div > img{width: 50px; aspect-ratio: 1/1;}
-.for_guest_color_pallete div:first-child{position: absolute; left: 80px; background: #f1d4ce;}
-.for_guest_color_pallete div:nth-child(2){position: absolute; left: 120px; background:#e6cdc6;}
+.for_guest_color_pallete div:first-child{position: absolute; left: 30%; transform: translateX(-50%); background: #f1d4ce;}
+.for_guest_color_pallete div:nth-child(2){position: absolute; left: 40%; transform: translateX(-50%); background:#e6cdc6;}
 .for_guest_color_pallete div:nth-child(3){position: absolute; left: 50%; transform: translateX(-50%);}
-.for_guest_color_pallete div:nth-child(4){position: absolute;right: 120px;}
-.for_guest_color_pallete div:last-child{position: absolute; right: 80px;}
+.for_guest_color_pallete div:nth-child(4){position: absolute; left: 60%; transform: translateX(-50%);}
+.for_guest_color_pallete div:last-child{position: absolute; left: 70%; transform: translateX(-50%);}
 
 .wishing_well{padding: 30px 0 0 0;}
 .wishing_well h2{font-family: 'Dancing Script', cursive; color: var(--white); padding-bottom: 15px;}
