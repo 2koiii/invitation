@@ -124,11 +124,16 @@ body {
 
 @media (max-width: 768px){
 	.container .popup-image img{width: 95%;}}
+	
+@media only screen and (max-width: 430px){
+	.container{padding: 10px;}
+}
 
 @media only screen and (max-width: 390px){
 	.container{padding: 15px;}
-	.align_middle{column-gap: 10px;}}
+	.align_middle{column-gap: 10px;}
+	.entourage_container p{font-size: 12px}}
 
 @media only screen and (max-width: 360px) {
 	.container{padding: 10px;}
-}
+	.entourage_container p{font-size: 12px}}
