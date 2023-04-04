@@ -64,7 +64,6 @@ body {
 .container .popup-image .gallery .thumbnails{display: flex; margin-bottom: 20px;}
 .container .popup-image .gallery .thumbnails img{width: 100px; height: 100px; margin: 5px; cursor: pointer; transition: all 0.3s ease; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.3); position: static; transform: none; object-fit: contain; aspect-ratio: 1/1; flex-shrink: 0; scroll-snap-align: center;}
 
-@media (max-width: 768px){.container .popup-image img{width: 95%;}}
 
 .photos_page p{font-weight: bold; color: var(--white); }
 .photos_page a{text-transform: none; color: black; text-decoration: underline;font-weight: normal; font-size: 13px; background: linear-gradient(
@@ -122,7 +121,14 @@ body {
 .wishing_well h2{font-family: 'Dancing Script', cursive; color: var(--white); padding-bottom: 15px;}
 .wishing_well p{font-family: 'Dancing Script', cursive; color: var(--white);}
 
-@media (max-width: 375px){
+
+@media (max-width: 768px){
+	.container .popup-image img{width: 95%;}}
+
+@media only screen and (max-width: 390px){
 	.container{padding: 15px;}
-	.align_middle{column-gap: 10px;}
+	.align_middle{column-gap: 10px;}}
+
+@media only screen and (max-width: 360px) {
+	.container{padding: 10px;}
 }
