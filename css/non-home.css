@@ -137,3 +137,12 @@ body {
 @media only screen and (max-width: 365px) {
 	.container{padding: 10px;}
 	.entourage_container p{font-size: 12px}}
+	
+@media only screen and (max-width: 354px) {
+	.container{padding: 5px;}
+}
+
+
+@media only screen and (max-width: 343px) {
+	.entourage_container p{font-size: 11px;}
+}
