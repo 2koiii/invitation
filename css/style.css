@@ -565,15 +565,15 @@ body {
 .venue {
 	width: 120px;
 	height: auto;
-	background-color: var(--roseGold);
+	background: repeat center/30% url(../assets/img/4th-color-pallete.jpg);
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
 	padding: 8px;
 	margin-right: 8px;
-  transition: .3s;
-  transform: scale(100%);
-  }
+  	transition: .3s;
+  	transform: scale(100%);
+  	}
 
   .venue:active{
     color:var(--violet);
